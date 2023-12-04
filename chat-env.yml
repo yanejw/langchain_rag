@@ -1,0 +1,34 @@
+name: chatbot
+channels:
+  - conda-forge
+dependencies:
+  - beautifulsoup4
+  - bokeh
+  - chromadb
+  - ffmpeg
+  - flask
+  - gensim
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
+  - lxml
+  - nltk
+  - notebook
+  - pip
+  - psycopg2
+  - pymc3
+  - pypdf
+  - python=3.8
+  - requests
+  - scikit-learn
+  - seaborn
+  - sqlalchemy
+  - statsmodels
+  - transformers
+  - tiktoken
+  - pip:
+    - tensorflow
+    - mlflow
+    - streamlit
+    - openai
+    - langchain
